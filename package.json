@@ -1,0 +1,34 @@
+{
+  "name": "bgio-sql",
+  "version": "1.0.0",
+  "description": "MySQL, Postgres and SQLite storage adapter for boardgame.io",
+  "main": "dist/index.js",
+  "types": "dist/inder.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "patch": "tsc && npm version patch && npm publish",
+    "minor": "tsc && npm version minor && npm publish",
+    "major": "tsc && npm version major && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alex23rodriguez/bgio-sql.git"
+  },
+  "keywords": [
+    "bgio",
+    "boargame.io",
+    "mysql",
+    "postgres",
+    "sqlite",
+    "sql"
+  ],
+  "author": "Alex23Rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alex23rodriguez/bgio-sql/issues"
+  },
+  "peerDependencies": {
+    "boardgame.io": ">=0.50.0"
+  },
+  "homepage": "https://github.com/Alex23rodriguez/bgio-sql#readme"
+}

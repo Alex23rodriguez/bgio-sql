@@ -30,5 +30,8 @@
   "peerDependencies": {
     "boardgame.io": ">=0.50.0"
   },
-  "homepage": "https://github.com/Alex23rodriguez/bgio-sql#readme"
+  "homepage": "https://github.com/Alex23rodriguez/bgio-sql#readme",
+  "dependencies": {
+    "sequelize": "^6.25.2"
+  }
 }

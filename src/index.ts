@@ -1,2 +1,2 @@
-export * from "./sqlstore";
-export * from "./persiststore";
+export { SQLStore } from "./sqlstore";
+export { PersistSQLStore } from "./persiststore";

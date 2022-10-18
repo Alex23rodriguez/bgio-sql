@@ -1,6 +1,6 @@
 {
   "name": "bgio-sql",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "MySQL, Postgres and SQLite storage adapter for boardgame.io",
   "main": "dist/index.js",
   "types": "dist/inder.d.ts",

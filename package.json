@@ -3,7 +3,7 @@
   "version": "1.0.5",
   "description": "MySQL, Postgres and SQLite storage adapter for boardgame.io",
   "main": "dist/index.js",
-  "types": "dist/inder.d.ts",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "patch": "tsc && npm version patch && npm publish",

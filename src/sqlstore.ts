@@ -20,7 +20,7 @@ export class SQLStore extends Async {
     if (typeof uriOrOptions === "string") {
       this._sequelize = new Sequelize(uriOrOptions, extraOptions || {});
     } else {
-      this._sequelize = new Sequelize({ dialect: "postgres", ...uriOrOptions });
+      this._sequelize = new Sequelize({ ...uriOrOptions });
     }
 
     Match.init(matchAttributes, {
